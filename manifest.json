@@ -1,0 +1,22 @@
+{
+  "name": "ip-x.y.z.internal",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Save some developer time and frustration",
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Correct!"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs",
+    "activeTab",
+    "background"
+  ]
+}
