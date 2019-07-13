@@ -1,6 +1,6 @@
 {
   "name": "ip-x.y.z.internal",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "manifest_version": 2,
   "description": "Save some developer time and frustration",
   "background": {
@@ -10,13 +10,16 @@
     "persistent": true
   },
   "browser_action": {
-    "default_title": "Correct!"
+    "default_icon": "icon.png",
+    "default_title": "-2."
   },
   "permissions": [
     "https://*/*",
     "http://*/*",
     "tabs",
     "activeTab",
-    "background"
+    "background",
+    "webRequest",
+    "webRequestBlocking"
   ]
 }
